@@ -1,0 +1,107 @@
+.container{
+    margin: 0;
+    padding:0;
+    text-align: center;
+    font-family: "Inter";
+  }
+  
+  .element-form-container{
+    width: 40%;
+    height: 100vh;
+    padding: 10vh 30%;
+    background-color: #FFFFFF;
+  }
+  
+  .form-card{
+    width: 60%;
+    padding: 5% 5vh;
+    background-color: #C4C4C4;
+    border-radius: 10px;
+  }
+  
+  .card-logo{
+    padding-top: 20px;
+  }
+  
+  .card-logo h2{
+    font-family: "Playfair Display"
+  }
+  
+  form{
+    padding: 10px 0%;
+  }
+  
+  .form-input{
+    padding: 5px 0%;
+    margin: 5px 0%;
+    width: 100%;
+  }
+  
+  input[type="text"], input[type="email"],
+  input[type="password"]{
+    width: 100%;
+    height: 40px;
+    padding-left: 2%;
+    border-radius: 3px;
+    border: none;
+    line-height: 2;
+    font-family: "Inter";
+  }
+  
+  input[type="submit"]{
+    width: 60%;
+    height: 40px;
+    padding-left: 2%;
+    border-radius: 3px;
+    border: none;
+    line-height: 2;
+    background-color: #090759;
+    color: #FFFFFF;
+    font-family: "Inter";
+  }
+  
+  .terms{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    color: rgba(9, 7, 89, 0.6);
+  }
+
+  span.error{
+    background-color: #fb17179e;
+    padding: 5px 31%;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #fff;
+  }
+
+  .card-footer{
+    font-size: 14px;
+  }
+
+  a{
+      text-decoration: none;
+  }
+
+  a.option{
+    padding: 10px 5%;
+    border-radius: 3px;
+  }
+
+  a.option:hover{
+      background-color: #090759;
+      color: #FFFFFF;
+      transition: all .2s ease-in-out
+  }
+
+  .content{
+      font-size: 14px;
+  }
+  
+  
+  @font-face{
+    font-family: "Inter";
+    src: url("https://cdn.jsdelivr.net/npm/inter-ui@3.10.0/inter.min.css");
+  }

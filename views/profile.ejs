@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/inter-ui@3.7.0/inter.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div class="container">
+        <div class="element-form-container">
+            <div class="form-card">
+                <div class="card-logo">
+                    <h2>TeamX</h2>
+                </div>
+                <div class="card-title">
+                    <p>Hello, <%= user.fullname%></p>
+                </div>
+
+                <div class="content">
+                    <p>Thank you for signing up with TeamX. Your profile has been reserved with us and we will notify you once our service offering goes live.</p></br>
+                    <p>We will be communicating through the email you have provided on signup - <%= user.email%></p></br>
+                    <p>Kind regards,</p>
+                    <p>TeamX</p> 
+                </div>
+
+                <div class="card-footer">
+                    <div class="card-option">
+                    <p><span><a href="signup">Logout</a></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

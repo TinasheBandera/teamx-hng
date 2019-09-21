@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/inter-ui@3.7.0/inter.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div class="container">
+        <div class="element-form-container">
+            <div class="form-card">
+                <div class="card-logo">
+                    <h2>TeamX</h2>
+                </div>
+                <div class="card-title">
+                    <p>Sign in to your account</p>
+                </div>
+
+                <p><%= loginError%></p>
+
+                <div class="card-content">
+                    <form action="signin" method="post">
+                        <div class="form-input">
+                            <input type="email" name="email" placeholder="Email Address" />
+                        </div>
+                        <div class="form-input">
+                            <input type="password" name="password" placeholder="Password" />
+                        </div>
+                        <div class="form-input">
+                            <input type="submit" name="submit" value="Sign In" />
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer">
+                    <div class="card-option">
+                    <p>Need an account? <span><a href="signup">Create one here.</a></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+  </body>
+</html>
